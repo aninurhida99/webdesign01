@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form and Table</title>
+</head>
+<body>
+	<table border="1" cellpadding="10">
+		<tr>
+			<th colspan="2">Data Mahasiswa</th>
+		</tr>
+		<tr>
+			<th>Nama</th>
+			<th>Kelas</th>
+		</tr>
+		<tr>
+			<td>Nawawi</td>
+			<td>Ase</td>
+		</tr>		
+	</table>
+	<hr>
+	 <form action="#">
+		<table>
+			<tr>
+				<td>NIM</td>
+				<td>: <input type="text" name="nim" id="nim"></td>
+			</tr>
+			<tr>
+				<td>Nama</td>
+				<td>: <input type="text" name="nama" id="nama"></td>
+			</tr>
+			<tr>
+				<td>Tanggal Lahir</td>
+				<td>: <input type="date" name="tgllahir" id="tgllahir"></td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td>: 
+					<input type="radio" name="jk" id="jk"> Laki-laki
+					<input type="radio" name="jk" id="jk"> Perempuan
+				</td>
+			</tr>
+			<tr>
+				<td>Agama</td>
+				<td>: 
+					<select name="agama" id="agama">
+						<option value="">-Pilih Agama-</option>
+						<option value="Islam">Islam</option>
+						<option value="Kristen">Kristen</option>
+						<option value="Protestan">Protestan</option>
+						<option value="Hindu">Hindu</option>
+						<option value="Budha">Budha</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Hobi</td>
+				<td>: 
+					<input type="checkbox" name="baca" id="baca">Membaca
+					<input type="checkbox" name="game" id="game">Main Game
+					<input type="checkbox" name="travelling" id="travelling">Travelling
+				</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>
+					: <input type="email" name="email" id="email">
+				</td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td>
+					: <input type="password" name="pass" id="pass">
+				</td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td>
+					: <textarea name="alamat" id="alamat" cols="40" rows="5"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<button type="button"> Simpan Data </button>
+				</td>
+			</tr>
+		</table>
+	 </form>
+</body>
+</html>
