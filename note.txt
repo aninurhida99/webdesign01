@@ -1,0 +1,10 @@
+-> Review
+-> Tambahkan tag <section>, <hr>
+-> Buat judul "List Hobi" dengan tag <h3>
+-> Buat "List Hobi" dengan tag <ul>
+-> Buat "List My Goal" dengan tag <h3>
+-> Buat "List My Goal" dengan tag <li>
+-> Buat halaman baru form.html
+-> Buat link ke halaman form
+-> Latihan membuat Tabel
+-> latihan membuat form
